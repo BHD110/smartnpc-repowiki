@@ -1,0 +1,22 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+commit: local
+branch: local
+exported_at: "2026-10-26T07:34:09Z"
+modules:
+    root:
+        dir_name: XiaMi 运行时诊断与部署临时脚本集
+        title: XiaMi 运行时诊断与部署临时脚本集
+        scope:
+            - audit_runtime_output.txt
+            - deploy_context_tmp.py
+            - inspect_bad_transcript_tmp.py
+            - inspect_current_tmp.py
+            - inspect_response_tmp.py
+            - inspect_tmp.py
+            - verify_mcp_context_tmp.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
