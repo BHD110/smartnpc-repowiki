@@ -1,0 +1,52 @@
+schema_version: 1
+module_path: root
+title: XiaMi 运行时诊断与部署临时脚本集
+scope:
+    - audit_runtime_output.txt
+    - deploy_context_tmp.py
+    - inspect_bad_transcript_tmp.py
+    - inspect_current_tmp.py
+    - inspect_response_tmp.py
+    - inspect_tmp.py
+    - verify_mcp_context_tmp.py
+source_files: []
+depends_on: []
+related_to: []
+kk_module_id: 6bdfa50a-f02e-4bf2-a0f4-21444c8fe632
+kk_cards:
+    architecture_design:
+        id: 516ed960-ff0d-47d0-bca6-f28f7fea13c9
+        title: XiaMi 运行时诊断与部署临时脚本集
+    coding_conventions:
+        id: 3e2a423e-3068-4985-ada3-e2b484866e71
+        title: XiaMi 运行时诊断与部署临时脚本集
+    overview:
+        id: 7ee2f80a-33a4-4b8f-8e93-79ec1cf461ee
+        title: XiaMi 运行时诊断与部署临时脚本集
+    tech_stack:
+        id: abe250cc-c6cd-49c2-86e1-36fe6ab92b70
+        title: XiaMi 运行时诊断与部署临时脚本集
+    unique_setup_and_commands:
+        id: f17bd66a-1671-4c69-81b1-dc48c1cb4f65
+        title: XiaMi 运行时诊断与部署临时脚本集
+    build_system:
+        id: 0116294f-b59e-4c56-9c62-019ea6334ae8
+        title: SmartNPC 多语言构建系统：Taskfile + .NET SDK + Go + GitHub Actions
+    configuration_system:
+        id: c5727b33-ddb0-4282-8ff1-f0b1296b1745
+        title: SmartNPC/Hermes 配置系统：npcs.yaml 驱动的多层配置渲染与覆盖机制
+    dependency_management:
+        id: 0b856855-8672-4ab5-90d0-964df8a8ea12
+        title: 多语言依赖管理：Go modules + .NET SDK pinning（无私有仓库/无 vendoring）
+    error_handling:
+        id: f7c47b44-5eb5-4a1c-a9fa-5d82963541ce
+        title: 错误处理体系：Go 标准库 errors + slog，C# try/catch 包装为 Response.Failure
+    logging_system:
+        id: 3d5bf72c-327b-4d16-9690-562de0c7f8bd
+        title: Go 侧 slog 结构化日志与 C# SMAPI Mod 日志双轨体系
+kk_repo_cards:
+    - build_system
+    - configuration_system
+    - dependency_management
+    - error_handling
+    - logging_system
