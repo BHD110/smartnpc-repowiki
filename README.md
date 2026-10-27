@@ -1,13 +1,13 @@
 # SmartNPC RepoWiki
 
-星露谷物语（Stardew Valley）AI NPC 项目 **SmartNPC / Hermes** 的架构文档站，由 Qoder RepoWiki 自动生成，快照日期 2026-10-26。
+星露谷物语（Stardew Valley）AI NPC 项目 **SmartNPC / Hermes** 的架构文档站，由 Qoder RepoWiki 自动生成，快照日期 2026-10-26，增量更新 2026-10-27（商店工具 / 日程冻结 / chat_say 白名单）。
 
 内容对应的代码仓库是 [OmniStormX/SmartNPC](https://github.com/OmniStormX/SmartNPC)。本仓库只放文档，不含源码。
 
 ## 目录结构
 
 ```
-wiki/        面向读者的 Wiki 正文（123 个页面，含 Mermaid 架构图）
+wiki/        面向读者的 Wiki 正文（124 个页面，含 Mermaid 架构图）
 knowledge/   按模块拆分的知识卡（概述 / 架构设计 / 技术栈 / 编码规范 / 构建系统 等）
 ```
 
@@ -19,7 +19,7 @@ knowledge/   按模块拆分的知识卡（概述 / 架构设计 / 技术栈 / �
 | --- | --- | --- |
 | 核心架构设计 | 33 | [核心架构设计](<wiki/核心架构设计/核心架构设计.md>) |
 | SMAPI 模组开发（C# Mod） | 32 | [SMAPI 模组开发](<wiki/SMAPI 模组开发/SMAPI 模组开发.md>) |
-| MCP 服务开发（Go 服务） | 23 | [MCP 服务开发](<wiki/MCP 服务开发/MCP 服务开发.md>) |
+| MCP 服务开发（Go 服务） | 24 | [MCP 服务开发](<wiki/MCP 服务开发/MCP 服务开发.md>) |
 | API 接口参考 | 12 | [API 接口参考](<wiki/API 接口参考/API 接口参考.md>) |
 | Hermes Agent Profiles | 9 | [Hermes Agent Profiles](<wiki/Hermes Agent Profiles/Hermes Agent Profiles.md>) |
 | 扩展开发指南 | 6 | [扩展开发指南](<wiki/扩展开发指南/扩展开发指南.md>) |
