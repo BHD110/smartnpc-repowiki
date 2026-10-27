@@ -11,6 +11,7 @@
 - [npc_social_action.go](file://SmartNPC/smartnpc-mcp/adapters/stardew/tools/npc_social_action.go)
 - [npc_world_action.go](file://SmartNPC/smartnpc-mcp/adapters/stardew/tools/npc_world_action.go)
 - [npc_schedule.go](file://SmartNPC/smartnpc-mcp/adapters/stardew/tools/npc_schedule.go)
+- [shop.go](file://SmartNPC/smartnpc-mcp/adapters/stardew/tools/shop.go)
 - [workflow.go](file://SmartNPC/smartnpc-mcp/adapters/stardew/tools/workflow.go)
 - [mcp-tools.md](file://SmartNPC/docs/mcp-tools.md)
 - [mcp-tool-design.mdc](file://SmartNPC/.codebuddy/rules/mcp-tool-design.mdc)
@@ -53,6 +54,7 @@ graph TB
         Social["tools/npc_social_action.go<br/>社交与表情工具"]
         World["tools/npc_world_action.go<br/>世界行为工具"]
         Schedule["tools/npc_schedule.go<br/>日程工具"]
+        Shop["tools/shop.go<br/>商店工具(远程购物)"]
         Workflow["tools/workflow.go<br/>工作流工具"]
     end
 
